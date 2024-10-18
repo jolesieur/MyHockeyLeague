@@ -1,10 +1,12 @@
 import Header from "./components/header";
 import GameCard from "./components/GameCard";
+import UserInfo from "./components/UserInfo";
 
 function App() {
   return (
     <div>
       <Header />
+      <UserInfo playerName="John Doe" playerEmail="john.doe@example.com" teamColor="text-primary" />
       <div className="container-fluid mt-4">
         <h1>Horaire</h1>
         <div className="row">
